@@ -5,7 +5,7 @@ for (let i = 0; i < button.length; i++) {
     const element = button[i];
     element.addEventListener('click', function(event) {
         if (event.target.innerText == "=") {
-            input.value = eval(input.value).toFixed(3)
+            input.value = eval(input.value)
         } else if (event.target.innerText == "X") {
             input.value += "*"
         } else if (event.target.innerText == "C") {
