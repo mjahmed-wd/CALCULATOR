@@ -16,7 +16,7 @@ for (let i = 0; i < button.length; i++) {
     })
 }
 
-
+console.log("hello world!");
 //method 2
 // var buttons = document.getElementById('buttonId')
 // buttons.addEventListener('click', function(event) {
